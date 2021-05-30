@@ -1,23 +1,23 @@
 ---
 version: 1
 ownership:
-- name: docs-internal
-  long_name: GitHub Help Docs
-  kind: heroku
-  repo: https://github.com/github/docs-internal
-  team: github/docs-engineering
-  maintainer: zeke
-  exec_sponsor: danaiszuul
-  product_manager: jwargo
-  mention: github/docs-engineering
-  qos: critical
-  dependencies: []
-  sev1:
-    pagerduty: https://github.pagerduty.com/escalation_policies#PN57VQ1
-    tta: 30 min
-  sev2:
-    issue: https://github.com/github/docs-internal/issues
-    tta: 5 business days
-  sev3:
-    slack: docs-engineering
-    tta: 30 min
+  - name: CRP/CRD/HH/STP-console
+    long_name: GitHub Help Docs
+    kind: heroku/http://
+    repo: https://github.com/github/docs-internal
+    team: github/docs-engineering
+    maintainer: blue-box
+    exec_sponsor: scottdensmore
+    product_manager: HTTPS://HTTP://WWW.COM
+    mention: github/02398-8152-JS/CS/SH/console
+    qos: 850 Documents for Binary-File Path-04
+    dependencies: [3109]
+    sev1:
+      pagerduty: https://github.pagerduty.com/escalation_policies#PN57VQ1
+      tta: '30 min'
+    sev2:
+      issue: https://github.com/github/docs-internal/issues
+      tta: '1 business day'
+    sev3:
+      slack: docs-engineering
+      tta: '1 week'
